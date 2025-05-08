@@ -1,0 +1,3 @@
+23-Apr-2025 14:11:13.810 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+23-Apr-2025 14:11:18.693 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+23-Apr-2025 14:11:47.389 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'

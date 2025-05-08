@@ -1,0 +1,14 @@
+127.0.0.1 - - [04/May/2025:20:57:25 -0300] "GET /gestaoUsuarios/swagger-ui/index.html HTTP/1.1" 200 734
+127.0.0.1 - - [04/May/2025:20:57:25 -0300] "GET /gestaoUsuarios/swagger-ui/index.html HTTP/1.1" 200 734
+127.0.0.1 - - [04/May/2025:20:57:25 -0300] "GET /gestaoUsuarios/swagger-ui/swagger-ui.css HTTP/1.1" 200 143980
+0:0:0:0:0:0:0:1 - - [04/May/2025:20:57:25 -0300] "GET /gestaoUsuarios/swagger-ui/index.css HTTP/1.1" 200 202
+0:0:0:0:0:0:0:1 - - [04/May/2025:20:57:25 -0300] "GET /gestaoUsuarios/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 200 1096221
+0:0:0:0:0:0:0:1 - - [04/May/2025:20:57:25 -0300] "GET /gestaoUsuarios/swagger-ui/swagger-ui-standalone-preset.js HTTP/1.1" 200 339540
+0:0:0:0:0:0:0:1 - - [04/May/2025:20:57:25 -0300] "GET /gestaoUsuarios/swagger-ui/swagger-initializer.js HTTP/1.1" 200 732
+0:0:0:0:0:0:0:1 - - [04/May/2025:20:57:25 -0300] "GET /gestaoUsuarios/swagger-ui/favicon-32x32.png HTTP/1.1" 200 628
+127.0.0.1 - - [04/May/2025:20:57:25 -0300] "GET /gestaoUsuarios/api-docs HTTP/1.1" 200 7761
+127.0.0.1 - - [04/May/2025:20:57:26 -0300] "GET /gestaoUsuarios/api-docs/swagger-config HTTP/1.1" 200 312
+127.0.0.1 - - [04/May/2025:20:57:26 -0300] "GET /gestaoUsuarios/swagger-ui/favicon-32x32.png HTTP/1.1" 200 628
+0:0:0:0:0:0:0:1 - - [04/May/2025:20:57:26 -0300] "GET /gestaoUsuarios/swagger-ui/favicon-32x32.png HTTP/1.1" 200 628
+127.0.0.1 - - [04/May/2025:20:57:26 -0300] "GET /gestaoUsuarios/api-docs HTTP/1.1" 200 7761
+127.0.0.1 - - [04/May/2025:20:57:26 -0300] "GET /favicon.ico HTTP/1.1" 404 694

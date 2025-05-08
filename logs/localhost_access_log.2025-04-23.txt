@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [23/Apr/2025:14:11:48 -0300] "GET /fornecedor-api/api/empresas HTTP/1.1" 200 315
+0:0:0:0:0:0:0:1 - - [23/Apr/2025:14:11:48 -0300] "GET /fornecedor-api/api/fornecedores HTTP/1.1" 200 997
+0:0:0:0:0:0:0:1 - - [23/Apr/2025:14:11:48 -0300] "GET /fornecedor-api/api/empresas/11/fornecedores HTTP/1.1" 200 355
+0:0:0:0:0:0:0:1 - - [23/Apr/2025:14:11:48 -0300] "GET /fornecedor-api/api/empresas/12/fornecedores HTTP/1.1" 200 348
+0:0:0:0:0:0:0:1 - - [23/Apr/2025:14:11:48 -0300] "GET /fornecedor-api/api/empresas/13/fornecedores HTTP/1.1" 200 323
+0:0:0:0:0:0:0:1 - - [23/Apr/2025:14:11:48 -0300] "GET /fornecedor-api/api/empresas/14/fornecedores HTTP/1.1" 200 997

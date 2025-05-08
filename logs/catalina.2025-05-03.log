@@ -1,0 +1,741 @@
+03-May-2025 12:21:38.998 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.99
+03-May-2025 12:21:39.001 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2025 20:08:08 UTC
+03-May-2025 12:21:39.001 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.99.0
+03-May-2025 12:21:39.001 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+03-May-2025 12:21:39.003 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 12:21:39.003 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 12:21:39.003 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\and_m\.jdks\corretto-17.0.14
+03-May-2025 12:21:39.003 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+7-LTS
+03-May-2025 12:21:39.003 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+03-May-2025 12:21:39.003 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:21:39.003 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:21:39.011 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 12:21:39.011 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 12:21:39.011 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 12:21:39.011 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 12:21:39.011 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 12:21:39.011 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:21:39.011 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:21:39.011 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\temp
+03-May-2025 12:21:39.011 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\logging.properties
+03-May-2025 12:21:39.011 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 12:21:39.011 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=55665:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+03-May-2025 12:21:39.011 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 12:21:39.023 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\and_m\.jdks\corretto-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk17.0.14_7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;c:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\and_m\AppData\Local\Microsoft\WindowsApps;C:\Users\and_m\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;.]
+03-May-2025 12:21:39.214 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:21:39.230 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [418] milliseconds
+03-May-2025 12:21:39.288 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 12:21:39.288 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.99]
+03-May-2025 12:21:39.300 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml]
+03-May-2025 12:21:44.035 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2025 12:21:44.221 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml] has finished in [4.921] ms
+03-May-2025 12:21:44.224 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:21:44.252 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [5021] milliseconds
+03-May-2025 12:31:28.037 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:31:28.050 INFORMAÇÕES [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2025 12:31:28.067 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:31:28.079 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:33:21.962 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.99
+03-May-2025 12:33:21.965 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2025 20:08:08 UTC
+03-May-2025 12:33:21.965 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.99.0
+03-May-2025 12:33:21.965 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+03-May-2025 12:33:21.965 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 12:33:21.965 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 12:33:21.965 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\and_m\.jdks\corretto-17.0.14
+03-May-2025 12:33:21.965 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+7-LTS
+03-May-2025 12:33:21.965 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+03-May-2025 12:33:21.965 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:33:21.965 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:33:21.973 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 12:33:21.973 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 12:33:21.973 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 12:33:21.973 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 12:33:21.973 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 12:33:21.973 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:33:21.973 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:33:21.973 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\temp
+03-May-2025 12:33:21.973 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\logging.properties
+03-May-2025 12:33:21.973 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 12:33:21.973 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=56213:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+03-May-2025 12:33:21.973 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 12:33:21.984 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\and_m\.jdks\corretto-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk17.0.14_7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;c:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\and_m\AppData\Local\Microsoft\WindowsApps;C:\Users\and_m\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;.]
+03-May-2025 12:33:22.191 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:33:22.206 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [410] milliseconds
+03-May-2025 12:33:22.253 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 12:33:22.253 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.99]
+03-May-2025 12:33:22.261 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml]
+03-May-2025 12:33:26.988 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2025 12:33:27.170 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml] has finished in [4.909] ms
+03-May-2025 12:33:27.173 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:33:27.202 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [4996] milliseconds
+03-May-2025 12:37:06.582 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:37:06.587 INFORMAÇÕES [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2025 12:37:06.598 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:37:06.614 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:37:09.672 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.99
+03-May-2025 12:37:09.678 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2025 20:08:08 UTC
+03-May-2025 12:37:09.678 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.99.0
+03-May-2025 12:37:09.678 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+03-May-2025 12:37:09.678 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 12:37:09.678 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 12:37:09.678 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\and_m\.jdks\corretto-17.0.14
+03-May-2025 12:37:09.678 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+7-LTS
+03-May-2025 12:37:09.678 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+03-May-2025 12:37:09.678 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:37:09.678 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:37:09.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 12:37:09.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 12:37:09.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 12:37:09.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 12:37:09.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 12:37:09.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:37:09.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:37:09.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\temp
+03-May-2025 12:37:09.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\logging.properties
+03-May-2025 12:37:09.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 12:37:09.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=56393:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+03-May-2025 12:37:09.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 12:37:09.698 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\and_m\.jdks\corretto-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk17.0.14_7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;c:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\and_m\AppData\Local\Microsoft\WindowsApps;C:\Users\and_m\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;.]
+03-May-2025 12:37:09.876 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:37:09.895 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [368] milliseconds
+03-May-2025 12:37:09.944 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 12:37:09.944 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.99]
+03-May-2025 12:37:09.954 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml]
+03-May-2025 12:37:14.621 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2025 12:37:14.802 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml] has finished in [4.848] ms
+03-May-2025 12:37:14.805 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:37:14.832 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [4934] milliseconds
+03-May-2025 12:37:56.051 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:37:56.067 INFORMAÇÕES [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2025 12:37:56.089 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:37:56.100 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:38:00.362 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.99
+03-May-2025 12:38:00.365 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2025 20:08:08 UTC
+03-May-2025 12:38:00.365 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.99.0
+03-May-2025 12:38:00.365 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+03-May-2025 12:38:00.365 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 12:38:00.365 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 12:38:00.366 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\and_m\.jdks\corretto-17.0.14
+03-May-2025 12:38:00.366 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+7-LTS
+03-May-2025 12:38:00.366 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+03-May-2025 12:38:00.366 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:38:00.366 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:38:00.373 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 12:38:00.373 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 12:38:00.373 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 12:38:00.373 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 12:38:00.373 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 12:38:00.373 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:38:00.373 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:38:00.373 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\temp
+03-May-2025 12:38:00.373 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\logging.properties
+03-May-2025 12:38:00.373 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 12:38:00.373 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=56445:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+03-May-2025 12:38:00.374 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 12:38:00.387 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\and_m\.jdks\corretto-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk17.0.14_7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;c:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\and_m\AppData\Local\Microsoft\WindowsApps;C:\Users\and_m\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;.]
+03-May-2025 12:38:00.570 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:38:00.585 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [370] milliseconds
+03-May-2025 12:38:00.625 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 12:38:00.625 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.99]
+03-May-2025 12:38:00.633 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml]
+03-May-2025 12:38:05.166 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2025 12:38:05.330 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml] has finished in [4.696] ms
+03-May-2025 12:38:05.332 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:38:05.359 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [4773] milliseconds
+03-May-2025 12:39:17.589 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:39:17.600 INFORMAÇÕES [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2025 12:39:17.618 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:39:17.628 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:39:23.372 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.99
+03-May-2025 12:39:23.374 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2025 20:08:08 UTC
+03-May-2025 12:39:23.374 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.99.0
+03-May-2025 12:39:23.374 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+03-May-2025 12:39:23.374 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 12:39:23.374 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 12:39:23.374 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\and_m\.jdks\corretto-17.0.14
+03-May-2025 12:39:23.374 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+7-LTS
+03-May-2025 12:39:23.374 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+03-May-2025 12:39:23.375 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:39:23.375 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:39:23.380 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 12:39:23.382 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 12:39:23.382 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 12:39:23.382 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 12:39:23.382 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 12:39:23.382 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:39:23.382 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:39:23.382 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\temp
+03-May-2025 12:39:23.382 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\logging.properties
+03-May-2025 12:39:23.382 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 12:39:23.382 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=56525:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+03-May-2025 12:39:23.382 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 12:39:23.398 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\and_m\.jdks\corretto-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk17.0.14_7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;c:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\and_m\AppData\Local\Microsoft\WindowsApps;C:\Users\and_m\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;.]
+03-May-2025 12:39:23.616 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:39:23.637 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [412] milliseconds
+03-May-2025 12:39:23.703 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 12:39:23.703 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.99]
+03-May-2025 12:39:23.714 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml]
+03-May-2025 12:39:28.528 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2025 12:39:28.699 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml] has finished in [4.984] ms
+03-May-2025 12:39:28.702 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:39:28.729 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [5090] milliseconds
+03-May-2025 12:45:05.270 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:45:05.282 INFORMAÇÕES [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2025 12:45:05.298 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:45:05.312 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:45:08.335 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.99
+03-May-2025 12:45:08.337 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2025 20:08:08 UTC
+03-May-2025 12:45:08.337 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.99.0
+03-May-2025 12:45:08.339 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+03-May-2025 12:45:08.339 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 12:45:08.339 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 12:45:08.339 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\and_m\.jdks\corretto-17.0.14
+03-May-2025 12:45:08.339 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+7-LTS
+03-May-2025 12:45:08.339 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+03-May-2025 12:45:08.339 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:45:08.339 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:45:08.346 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 12:45:08.346 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 12:45:08.346 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 12:45:08.346 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 12:45:08.346 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 12:45:08.346 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:45:08.346 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:45:08.346 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\temp
+03-May-2025 12:45:08.346 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\logging.properties
+03-May-2025 12:45:08.346 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 12:45:08.346 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=57125:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+03-May-2025 12:45:08.346 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 12:45:08.358 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\and_m\.jdks\corretto-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk17.0.14_7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;c:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\and_m\AppData\Local\Microsoft\WindowsApps;C:\Users\and_m\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;.]
+03-May-2025 12:45:08.536 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:45:08.551 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [368] milliseconds
+03-May-2025 12:45:08.593 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 12:45:08.593 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.99]
+03-May-2025 12:45:08.602 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml]
+03-May-2025 12:45:12.830 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2025 12:45:12.993 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml] has finished in [4.391] ms
+03-May-2025 12:45:12.996 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:45:13.019 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [4468] milliseconds
+03-May-2025 12:50:58.784 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:50:58.798 INFORMAÇÕES [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2025 12:50:58.813 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:50:58.833 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:51:01.380 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.99
+03-May-2025 12:51:01.383 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2025 20:08:08 UTC
+03-May-2025 12:51:01.383 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.99.0
+03-May-2025 12:51:01.383 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+03-May-2025 12:51:01.383 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 12:51:01.383 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 12:51:01.383 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\and_m\.jdks\corretto-17.0.14
+03-May-2025 12:51:01.383 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+7-LTS
+03-May-2025 12:51:01.383 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+03-May-2025 12:51:01.384 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:51:01.384 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:51:01.389 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 12:51:01.389 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 12:51:01.389 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 12:51:01.389 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 12:51:01.389 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 12:51:01.390 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:51:01.390 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:51:01.390 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\temp
+03-May-2025 12:51:01.390 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\logging.properties
+03-May-2025 12:51:01.390 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 12:51:01.390 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=57450:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+03-May-2025 12:51:01.390 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 12:51:01.400 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\and_m\.jdks\corretto-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk17.0.14_7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;c:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\and_m\AppData\Local\Microsoft\WindowsApps;C:\Users\and_m\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;.]
+03-May-2025 12:51:01.636 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:51:01.654 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [427] milliseconds
+03-May-2025 12:51:01.694 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 12:51:01.694 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.99]
+03-May-2025 12:51:01.703 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml]
+03-May-2025 12:51:05.992 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2025 12:51:14.906 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/gestaoUsuarios]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 37 more
+	Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'jwtAuthenticationFilter'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.com.tokio.security.JwtAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:175)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:155)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:97)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:174)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4491)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 38 more
+	Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.com.tokio.security.JwtAuthenticationFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1799)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1355)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+		... 61 more
+03-May-2025 12:51:14.922 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml] has finished in [13.218] ms
+03-May-2025 12:51:14.927 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:51:14.951 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [13297] milliseconds
+03-May-2025 12:52:16.155 INFORMAÇÕES [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:52:16.167 INFORMAÇÕES [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2025 12:52:16.167 INFORMAÇÕES [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:52:16.184 INFORMAÇÕES [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:52:16.187 ADVERTÊNCIA [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [gestaoUsuarios] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2025 12:52:19.554 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.99
+03-May-2025 12:52:19.557 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2025 20:08:08 UTC
+03-May-2025 12:52:19.557 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.99.0
+03-May-2025 12:52:19.557 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+03-May-2025 12:52:19.557 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 12:52:19.557 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 12:52:19.559 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\and_m\.jdks\corretto-17.0.14
+03-May-2025 12:52:19.559 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+7-LTS
+03-May-2025 12:52:19.559 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+03-May-2025 12:52:19.559 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:52:19.559 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:52:19.565 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 12:52:19.567 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 12:52:19.567 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 12:52:19.567 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 12:52:19.567 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 12:52:19.567 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:52:19.567 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:52:19.567 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\temp
+03-May-2025 12:52:19.567 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\logging.properties
+03-May-2025 12:52:19.567 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 12:52:19.567 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=57584:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+03-May-2025 12:52:19.567 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 12:52:19.577 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\and_m\.jdks\corretto-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk17.0.14_7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;c:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\and_m\AppData\Local\Microsoft\WindowsApps;C:\Users\and_m\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;.]
+03-May-2025 12:52:19.788 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:52:19.802 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [395] milliseconds
+03-May-2025 12:52:19.839 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 12:52:19.840 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.99]
+03-May-2025 12:52:19.848 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml]
+03-May-2025 12:52:24.610 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2025 12:52:33.166 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/gestaoUsuarios]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 37 more
+	Caused by: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'userDetailsService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'inMemoryUserDetailsManager' defined in class path resource [org/springframework/boot/autoconfigure/security/servlet/UserDetailsServiceAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.provisioning.InMemoryUserDetailsManager]: Factory method 'inMemoryUserDetailsManager' threw exception; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'securityConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:175)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:155)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:97)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:174)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4491)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 38 more
+	Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'userDetailsService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'inMemoryUserDetailsManager' defined in class path resource [org/springframework/boot/autoconfigure/security/servlet/UserDetailsServiceAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.provisioning.InMemoryUserDetailsManager]: Factory method 'inMemoryUserDetailsManager' threw exception; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'securityConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+		at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+		at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212)
+		at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:175)
+		at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:170)
+		at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155)
+		at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:262)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:236)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+		... 49 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'inMemoryUserDetailsManager' defined in class path resource [org/springframework/boot/autoconfigure/security/servlet/UserDetailsServiceAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.provisioning.InMemoryUserDetailsManager]: Factory method 'inMemoryUserDetailsManager' threw exception; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'securityConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+		at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+		at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+		at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+		... 77 more
+	Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.provisioning.InMemoryUserDetailsManager]: Factory method 'inMemoryUserDetailsManager' threw exception; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'securityConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+		at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+		at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+		... 90 more
+	Caused by: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'securityConfig': Requested bean is currently in creation: Is there an unresolvable circular reference?
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.beforeSingletonCreation(DefaultSingletonBeanRegistry.java:355)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:227)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+		at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.getIfAvailable(DefaultListableBeanFactory.java:2030)
+		at org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration.inMemoryUserDetailsManager(UserDetailsServiceAutoConfiguration.java:81)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+		... 91 more
+03-May-2025 12:52:33.169 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml] has finished in [13.321] ms
+03-May-2025 12:52:33.172 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:52:33.187 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [13384] milliseconds
+03-May-2025 12:53:38.633 INFORMAÇÕES [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:53:38.645 INFORMAÇÕES [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2025 12:53:38.646 INFORMAÇÕES [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:53:38.647 INFORMAÇÕES [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:53:38.649 ADVERTÊNCIA [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [gestaoUsuarios] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2025 12:53:41.281 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.99
+03-May-2025 12:53:41.284 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2025 20:08:08 UTC
+03-May-2025 12:53:41.284 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.99.0
+03-May-2025 12:53:41.284 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+03-May-2025 12:53:41.284 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 12:53:41.284 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 12:53:41.284 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\and_m\.jdks\corretto-17.0.14
+03-May-2025 12:53:41.284 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+7-LTS
+03-May-2025 12:53:41.284 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+03-May-2025 12:53:41.284 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:53:41.284 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:53:41.291 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 12:53:41.291 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 12:53:41.291 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 12:53:41.291 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 12:53:41.291 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 12:53:41.291 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:53:41.291 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:53:41.291 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\temp
+03-May-2025 12:53:41.291 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\logging.properties
+03-May-2025 12:53:41.292 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 12:53:41.292 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=57698:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+03-May-2025 12:53:41.292 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 12:53:41.303 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\and_m\.jdks\corretto-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk17.0.14_7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;c:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\and_m\AppData\Local\Microsoft\WindowsApps;C:\Users\and_m\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;.]
+03-May-2025 12:53:41.504 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:53:41.519 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [374] milliseconds
+03-May-2025 12:53:41.567 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 12:53:41.567 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.99]
+03-May-2025 12:53:41.573 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml]
+03-May-2025 12:53:45.778 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2025 12:53:53.996 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/gestaoUsuarios]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 37 more
+	Caused by: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtAuthenticationFilter' defined in class path resource [org/com/tokio/config/SecurityConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: authenticationManager must be specified
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:175)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:155)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:97)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:174)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4491)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 38 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtAuthenticationFilter' defined in class path resource [org/com/tokio/config/SecurityConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: authenticationManager must be specified
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+		at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212)
+		at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:175)
+		at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:170)
+		at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155)
+		at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:262)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:236)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+		... 49 more
+	Caused by: java.lang.IllegalArgumentException: authenticationManager must be specified
+		at org.springframework.util.Assert.notNull(Assert.java:201)
+		at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.afterPropertiesSet(AbstractAuthenticationProcessingFilter.java:187)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+		... 64 more
+03-May-2025 12:53:54.000 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml] has finished in [12.426] ms
+03-May-2025 12:53:54.002 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:53:54.016 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [12496] milliseconds
+03-May-2025 12:54:45.583 INFORMAÇÕES [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:54:45.594 INFORMAÇÕES [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2025 12:54:45.594 INFORMAÇÕES [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:54:45.611 INFORMAÇÕES [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:54:45.614 ADVERTÊNCIA [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [gestaoUsuarios] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2025 12:54:48.880 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.99
+03-May-2025 12:54:48.883 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2025 20:08:08 UTC
+03-May-2025 12:54:48.883 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.99.0
+03-May-2025 12:54:48.883 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+03-May-2025 12:54:48.883 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 12:54:48.883 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 12:54:48.883 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\and_m\.jdks\corretto-17.0.14
+03-May-2025 12:54:48.883 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+7-LTS
+03-May-2025 12:54:48.883 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+03-May-2025 12:54:48.883 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:54:48.884 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:54:48.890 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 12:54:48.890 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 12:54:48.890 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 12:54:48.890 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 12:54:48.890 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 12:54:48.890 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:54:48.890 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:54:48.890 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\temp
+03-May-2025 12:54:48.890 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\logging.properties
+03-May-2025 12:54:48.890 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 12:54:48.890 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=57806:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+03-May-2025 12:54:48.890 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 12:54:48.901 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\and_m\.jdks\corretto-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk17.0.14_7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;c:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\and_m\AppData\Local\Microsoft\WindowsApps;C:\Users\and_m\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;.]
+03-May-2025 12:54:49.085 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:54:49.099 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [375] milliseconds
+03-May-2025 12:54:49.136 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 12:54:49.136 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.99]
+03-May-2025 12:54:49.143 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml]
+03-May-2025 12:54:53.426 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2025 12:55:03.620 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml] has finished in [14.476] ms
+03-May-2025 12:55:03.622 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:55:03.638 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [14540] milliseconds
+03-May-2025 12:56:22.976 INFORMAÇÕES [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:56:22.990 INFORMAÇÕES [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2025 12:56:23.026 INFORMAÇÕES [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:56:23.040 INFORMAÇÕES [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:56:26.301 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.99
+03-May-2025 12:56:26.304 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2025 20:08:08 UTC
+03-May-2025 12:56:26.304 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.99.0
+03-May-2025 12:56:26.304 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+03-May-2025 12:56:26.304 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 12:56:26.304 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 12:56:26.304 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\and_m\.jdks\corretto-17.0.14
+03-May-2025 12:56:26.304 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+7-LTS
+03-May-2025 12:56:26.304 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+03-May-2025 12:56:26.304 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:56:26.304 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:56:26.310 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 12:56:26.310 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 12:56:26.311 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 12:56:26.311 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 12:56:26.311 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 12:56:26.311 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:56:26.311 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:56:26.311 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\temp
+03-May-2025 12:56:26.311 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\logging.properties
+03-May-2025 12:56:26.311 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 12:56:26.311 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=57948:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+03-May-2025 12:56:26.311 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 12:56:26.324 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\and_m\.jdks\corretto-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk17.0.14_7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;c:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\and_m\AppData\Local\Microsoft\WindowsApps;C:\Users\and_m\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;.]
+03-May-2025 12:56:26.508 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:56:26.524 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [366] milliseconds
+03-May-2025 12:56:26.570 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 12:56:26.570 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.99]
+03-May-2025 12:56:26.580 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml]
+03-May-2025 12:56:31.305 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2025 12:56:41.840 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml] has finished in [15.260] ms
+03-May-2025 12:56:41.843 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:56:41.859 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [15334] milliseconds
+03-May-2025 12:58:36.093 INFORMAÇÕES [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:58:36.105 INFORMAÇÕES [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2025 12:58:36.125 INFORMAÇÕES [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:58:36.130 INFORMAÇÕES [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:58:38.683 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.99
+03-May-2025 12:58:38.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2025 20:08:08 UTC
+03-May-2025 12:58:38.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.99.0
+03-May-2025 12:58:38.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+03-May-2025 12:58:38.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2025 12:58:38.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2025 12:58:38.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\and_m\.jdks\corretto-17.0.14
+03-May-2025 12:58:38.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+7-LTS
+03-May-2025 12:58:38.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+03-May-2025 12:58:38.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:58:38.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:58:38.695 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2025 12:58:38.695 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2025 12:58:38.695 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2025 12:58:38.695 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2025 12:58:38.695 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2025 12:58:38.695 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\and_m\Documents\apache-tomcat-9.0.99
+03-May-2025 12:58:38.696 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario
+03-May-2025 12:58:38.696 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\temp
+03-May-2025 12:58:38.696 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\logging.properties
+03-May-2025 12:58:38.696 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2025 12:58:38.696 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=58111:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+03-May-2025 12:58:38.696 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-May-2025 12:58:38.707 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\and_m\.jdks\corretto-17.0.14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk17.0.14_7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;c:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\and_m\AppData\Local\Microsoft\WindowsApps;C:\Users\and_m\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\and_m\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\and_m\AppData\Local\Programs\cursor\resources\app\bin;.]
+03-May-2025 12:58:38.889 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:58:38.902 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [366] milliseconds
+03-May-2025 12:58:38.940 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2025 12:58:38.940 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.99]
+03-May-2025 12:58:38.950 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml]
+03-May-2025 12:58:43.142 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2025 12:58:53.517 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\and_m\IdeaProjects\Git\gestaoUsuario\conf\Catalina\localhost\gestaoUsuarios.xml] has finished in [14.566] ms
+03-May-2025 12:58:53.520 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-May-2025 12:58:53.535 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [14632] milliseconds
+03-May-2025 18:31:18.541 INFORMAÇÕES [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-May-2025 18:31:18.541 INFORMAÇÕES [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2025 18:31:20.075 INFORMAÇÕES [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-May-2025 18:31:20.090 INFORMAÇÕES [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
